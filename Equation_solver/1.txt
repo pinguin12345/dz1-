@@ -1,0 +1,1421 @@
+In file included from .\include\kernel/monomial.h:6,
+                 from .\include\kernel/polynomial.h:5,
+                 from .\include\kernel/polynomial_exponential.h:2,
+                 from .\include\kernel/arithmetic_expression.h:3,
+                 from main.cpp:1:
+.\include\kernel/fraction.h:3:10: fatal error: Equation_solver\High\High_int.h: No such file or directory
+    3 | #include "Equation_solver\High\High_int.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/polynomial_exponential.h:2,
+                 from .\include/kernel/arithmetic_expression.h:3,
+                 from src/kernel/arithmetic_expression.cpp:2:
+.\include/kernel/fraction.h:3:10: fatal error: Equation_solver\High\High_int.h: No such file or directory
+    3 | #include "Equation_solver\High\High_int.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/equation.h:3,
+                 from src/kernel/equation.cpp:1:
+.\include/kernel/fraction.h:3:10: fatal error: Equation_solver\High\High_int.h: No such file or directory
+    3 | #include "Equation_solver\High\High_int.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/polynomial_exponential.h:2,
+                 from .\include/kernel/arithmetic_expression.h:3,
+                 from src/kernel/mathematical_expression.cpp:1:
+.\include/kernel/fraction.h:3:10: fatal error: Equation_solver\High\High_int.h: No such file or directory
+    3 | #include "Equation_solver\High\High_int.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/kernel/monomial.h:6,
+                 from src/kernel/monomial.cpp:1:
+.\include/kernel/fraction.h:3:10: fatal error: Equation_solver\High\High_int.h: No such file or directory
+    3 | #include "Equation_solver\High\High_int.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from src/kernel/polynomial.cpp:1:
+.\include/kernel/fraction.h:3:10: fatal error: Equation_solver\High\High_int.h: No such file or directory
+    3 | #include "Equation_solver\High\High_int.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/polynomial_exponential.h:2,
+                 from src/kernel/polynomial_exponential.cpp:1:
+.\include/kernel/fraction.h:3:10: fatal error: Equation_solver\High\High_int.h: No such file or directory
+    3 | #include "Equation_solver\High\High_int.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/polynomial_exponential.h:2,
+                 from .\include/kernel/polynomial_exponential_sum.h:3,
+                 from src/kernel/polynomial_exponential_sum.cpp:1:
+.\include/kernel/fraction.h:3:10: fatal error: Equation_solver\High\High_int.h: No such file or directory
+    3 | #include "Equation_solver\High\High_int.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/High/High_float.h:2,
+                 from src/High/High_float.cpp:4:
+.\include/High/High_int.h:10:27: error: 'int8_t' was not declared in this scope
+   10 |         class std::vector<int8_t> data;
+      |                           ^~~~~~
+.\include/High/High_int.h:3:1: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    2 | #include <vector>
+  +++ |+#include <cstdint>
+    3 | #include <string>
+.\include/High/High_int.h:10:33: error: template argument 1 is invalid
+   10 |         class std::vector<int8_t> data;
+      |                                 ^
+.\include/High/High_int.h:10:33: error: template argument 2 is invalid
+.\include/High/High_int.h:13:24: error: 'int64_t' does not name a type
+   13 |         High_int(const int64_t data);
+      |                        ^~~~~~~
+.\include/High/High_int.h:13:24: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High/High_int.h:18:18: error: expected type-specifier before 'int64_t'
+   18 |         operator int64_t();
+      |                  ^~~~~~~
+.\include/High/High_int.h:21:28: error: 'int64_t' has not been declared
+   21 |         High_int operator=(int64_t data);
+      |                            ^~~~~~~
+.\include/High/High_int.h:21:28: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High/High_int.h:49:23: error: 'int8_t' was not declared in this scope
+   49 |     class std::vector<int8_t>& Data();
+      |                       ^~~~~~
+.\include/High/High_int.h:49:23: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High/High_int.h:49:29: error: template argument 1 is invalid
+   49 |     class std::vector<int8_t>& Data();
+      |                             ^
+.\include/High/High_int.h:49:29: error: template argument 2 is invalid
+.\include/High/High_float.h:16:9: error: 'int64_t' does not name a type
+   16 |         int64_t decimals_leading_zero;
+      |         ^~~~~~~
+.\include/High/High_float.h:3:1: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    2 | #include "High_int.h"
+  +++ |+#include <cstdint>
+    3 | // ╤А╨╡╨░╨╗╨╕╨╖╨░╤Ж╨╕╤П ╤З╨╕╤Б╨╡╨╗ ╤Б ╨┐╨╗╨░╨▓╨░╤О╤Й╨╡╨╣ ╤В╨╛╤З╨║╨╛╨╣ ╨┐╤А╨╛╨╕╨╖╨▓╨╛╨╗╤М╨╜╨╛╨╣ ╤В╨╛╤З╨╜╨╛╤Б╤В╨╕
+.\include/High/High_float.h:18:16: error: 'int64_t' does not name a type
+   18 |         static int64_t precision;
+      |                ^~~~~~~
+.\include/High/High_float.h:18:16: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High/High_float.h:55:27: error: 'int64_t' has not been declared
+   55 |         void setprecision(int64_t precision);
+      |                           ^~~~~~~
+.\include/High/High_float.h:55:27: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High/High_float.h:61:9: error: 'int64_t' does not name a type
+   61 |         int64_t& Decimals_leading_zero();
+      |         ^~~~~~~
+.\include/High/High_float.h:61:9: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:12:1: error: 'int64_t' does not name a type
+   12 | int64_t High_float::precision = PRECISION;
+      | ^~~~~~~
+src/High/High_float.cpp:5:1: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    4 | #include"High/High_float.h"
+  +++ |+#include <cstdint>
+    5 | #include"High/High_int.h"
+src/High/High_float.cpp: In constructor 'High_float::High_float()':
+src/High/High_float.cpp:19:15: error: 'class High_float' has no member named 'decimals_leading_zero'
+   19 |         this->decimals_leading_zero = 0;
+      |               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp: In member function 'High_float::operator std::string()':
+src/High/High_float.cpp:55:22: error: 'int64_t' was not declared in this scope
+   55 |                 for (int64_t i = 0; i < this->Decimals_leading_zero(); i++)
+      |                      ^~~~~~~
+src/High/High_float.cpp:55:22: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:55:37: error: 'i' was not declared in this scope
+   55 |                 for (int64_t i = 0; i < this->Decimals_leading_zero(); i++)
+      |                                     ^
+src/High/High_float.cpp:55:47: error: 'class High_float' has no member named 'Decimals_leading_zero'
+   55 |                 for (int64_t i = 0; i < this->Decimals_leading_zero(); i++)
+      |                                               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp: At global scope:
+src/High/High_float.cpp:77:6: error: variable or field 'setprecision' declared void
+   77 | void High_float::setprecision(int64_t precision)
+      |      ^~~~~~~~~~
+src/High/High_float.cpp:77:31: error: 'int64_t' was not declared in this scope
+   77 | void High_float::setprecision(int64_t precision)
+      |                               ^~~~~~~
+src/High/High_float.cpp:77:31: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp: In member function 'High_float High_float::operator=(High_float)':
+src/High/High_float.cpp:93:15: error: 'class High_float' has no member named 'decimals_leading_zero'
+   93 |         this->decimals_leading_zero = data.decimals_leading_zero;
+      |               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:93:44: error: 'class High_float' has no member named 'decimals_leading_zero'
+   93 |         this->decimals_leading_zero = data.decimals_leading_zero;
+      |                                            ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp: In member function 'High_float High_float::operator=(High_int)':
+src/High/High_float.cpp:103:15: error: 'class High_float' has no member named 'decimals_leading_zero'
+  103 |         this->decimals_leading_zero = 0;
+      |               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp: In member function 'High_float High_float::operator=(long double)':
+src/High/High_float.cpp:118:9: error: 'uint64_t' was not declared in this scope
+  118 |         uint64_t location = temp.find('.');
+      |         ^~~~~~~~
+src/High/High_float.cpp:118:9: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:119:30: error: request for member 'clear' in '((High_float*)this)->High_float::integer.High_int::Data()', which is of non-class type 'int'
+  119 |         this->integer.Data().clear();
+      |                              ^~~~~
+src/High/High_float.cpp:120:31: error: request for member 'clear' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  120 |         this->decimals.Data().clear();
+      |                               ^~~~~
+src/High/High_float.cpp:121:15: error: 'class High_float' has no member named 'decimals_leading_zero'
+  121 |         this->decimals_leading_zero = 0;
+      |               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:122:13: error: 'location' was not declared in this scope; did you mean 'localtime'?
+  122 |         if (location == -1)
+      |             ^~~~~~~~
+      |             localtime
+src/High/High_float.cpp:124:34: error: 'int64_t' was not declared in this scope
+  124 |                 this->integer = (int64_t)data;
+      |                                  ^~~~~~~
+src/High/High_float.cpp:124:34: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:125:39: error: request for member 'push_back' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  125 |                 this->decimals.Data().push_back(0);
+      |                                       ^~~~~~~~~
+src/High/High_float.cpp:128:17: error: expected ';' before 'count'
+  128 |         uint64_t count = 0;
+      |                 ^~~~~~
+      |                 ;
+src/High/High_float.cpp:129:16: error: 'count' was not declared in this scope
+  129 |         while (count < location)
+      |                ^~~~~
+src/High/High_float.cpp:129:24: error: 'location' was not declared in this scope; did you mean 'localtime'?
+  129 |         while (count < location)
+      |                        ^~~~~~~~
+      |                        localtime
+src/High/High_float.cpp:131:38: error: request for member 'push_back' in '((High_float*)this)->High_float::integer.High_int::Data()', which is of non-class type 'int'
+  131 |                 this->integer.Data().push_back(temp.at(count) - 48);
+      |                                      ^~~~~~~~~
+src/High/High_float.cpp:134:11: error: 'location' was not declared in this scope; did you mean 'localtime'?
+  134 |         ++location;
+      |           ^~~~~~~~
+      |           localtime
+src/High/High_float.cpp:137:39: error: request for member 'push_back' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  137 |                 this->decimals.Data().push_back(temp.at(location) - 48);
+      |                                       ^~~~~~~~~
+src/High/High_float.cpp: In member function 'bool High_float::operator==(High_float)':
+src/High/High_float.cpp:149:23: error: 'class High_float' has no member named 'decimals_leading_zero'
+  149 |                 this->decimals_leading_zero == data.decimals_leading_zero)
+      |                       ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:149:53: error: 'class High_float' has no member named 'decimals_leading_zero'
+  149 |                 this->decimals_leading_zero == data.decimals_leading_zero)
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp: In member function 'High_float High_float::operator=(std::string)':
+src/High/High_float.cpp:164:9: error: 'uint64_t' was not declared in this scope
+  164 |         uint64_t i = 0;
+      |         ^~~~~~~~
+src/High/High_float.cpp:164:9: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:165:14: error: 'i' was not declared in this scope
+  165 |         for (i; i < data.size(); i++)
+      |              ^
+src/High/High_float.cpp:174:14: error: 'i' was not declared in this scope
+  174 |         for (i; i < data.size(); i++)
+      |              ^
+src/High/High_float.cpp:179:22: error: expected ';' before 'j'
+  179 |         for (uint64_t j = 0; j < container.size(); j++)
+      |                      ^~
+      |                      ;
+src/High/High_float.cpp:179:30: error: 'j' was not declared in this scope
+  179 |         for (uint64_t j = 0; j < container.size(); j++)
+      |                              ^
+src/High/High_float.cpp:183:33: error: 'class High_float' has no member named 'decimals_leading_zero'
+  183 |                         ++this->decimals_leading_zero;
+      |                                 ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp: In member function 'bool High_float::operator>(High_float)':
+src/High/High_float.cpp:204:27: error: 'class High_float' has no member named 'decimals_leading_zero'
+  204 |                 if (this->decimals_leading_zero < data.decimals_leading_zero && this->decimals != High_int_NULL)
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:204:56: error: 'class High_float' has no member named 'decimals_leading_zero'
+  204 |                 if (this->decimals_leading_zero < data.decimals_leading_zero && this->decimals != High_int_NULL)
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:206:31: error: 'class High_float' has no member named 'decimals_leading_zero'
+  206 |                 else if (data.decimals_leading_zero < this->decimals_leading_zero && data.decimals != High_int_NULL)
+      |                               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:206:61: error: 'class High_float' has no member named 'decimals_leading_zero'
+  206 |                 else if (data.decimals_leading_zero < this->decimals_leading_zero && data.decimals != High_int_NULL)
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:214:27: error: 'class High_float' has no member named 'decimals_leading_zero'
+  214 |                 if (this->decimals_leading_zero < data.decimals_leading_zero && this->decimals != High_int_NULL)
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:214:56: error: 'class High_float' has no member named 'decimals_leading_zero'
+  214 |                 if (this->decimals_leading_zero < data.decimals_leading_zero && this->decimals != High_int_NULL)
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:216:31: error: 'class High_float' has no member named 'decimals_leading_zero'
+  216 |                 else if (data.decimals_leading_zero < this->decimals_leading_zero && data.decimals != High_int_NULL)
+      |                               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:216:61: error: 'class High_float' has no member named 'decimals_leading_zero'
+  216 |                 else if (data.decimals_leading_zero < this->decimals_leading_zero && data.decimals != High_int_NULL)
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp: In member function 'High_float High_float::operator+(High_float)':
+src/High/High_float.cpp:264:36: error: request for member 'size' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  264 |         if (result.decimals.Data().size() >
+      |                                    ^~~~
+src/High/High_float.cpp:265:28: error: 'class High_float' has no member named 'decimals_leading_zero'
+  265 |                 (MAX(this->decimals_leading_zero + this->decimals.Data().size(),
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:10:19: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                   ^
+src/High/High_float.cpp:265:74: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  265 |                 (MAX(this->decimals_leading_zero + this->decimals.Data().size(),
+      |                                                                          ^~~~
+src/High/High_float.cpp:10:19: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                   ^
+src/High/High_float.cpp:266:27: error: 'class High_float' has no member named 'decimals_leading_zero'
+  266 |                         b.decimals_leading_zero + b.decimals.Data().size())))
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:10:23: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                       ^
+src/High/High_float.cpp:266:69: error: request for member 'size' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  266 |                         b.decimals_leading_zero + b.decimals.Data().size())))
+      |                                                                     ^~~~
+src/High/High_float.cpp:10:23: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                       ^
+src/High/High_float.cpp:265:28: error: 'class High_float' has no member named 'decimals_leading_zero'
+  265 |                 (MAX(this->decimals_leading_zero + this->decimals.Data().size(),
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:10:28: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                            ^
+src/High/High_float.cpp:265:74: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  265 |                 (MAX(this->decimals_leading_zero + this->decimals.Data().size(),
+      |                                                                          ^~~~
+src/High/High_float.cpp:10:28: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                            ^
+src/High/High_float.cpp:266:27: error: 'class High_float' has no member named 'decimals_leading_zero'
+  266 |                         b.decimals_leading_zero + b.decimals.Data().size())))
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:10:32: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                                ^
+src/High/High_float.cpp:266:69: error: request for member 'size' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  266 |                         b.decimals_leading_zero + b.decimals.Data().size())))
+      |                                                                     ^~~~
+src/High/High_float.cpp:10:32: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                                ^
+src/High/High_float.cpp:269:40: error: request for member 'erase' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  269 |                 result.decimals.Data().erase(result.decimals.Data().begin());
+      |                                        ^~~~~
+src/High/High_float.cpp:269:69: error: request for member 'begin' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  269 |                 result.decimals.Data().erase(result.decimals.Data().begin());
+      |                                                                     ^~~~~
+src/High/High_float.cpp:271:16: error: 'class High_float' has no member named 'decimals_leading_zero'
+  271 |         result.decimals_leading_zero +=
+      |                ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:272:28: error: 'class High_float' has no member named 'decimals_leading_zero'
+  272 |                 (MAX(this->decimals_leading_zero + this->decimals.Data().size(),
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:10:19: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                   ^
+src/High/High_float.cpp:272:74: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  272 |                 (MAX(this->decimals_leading_zero + this->decimals.Data().size(),
+      |                                                                          ^~~~
+src/High/High_float.cpp:10:19: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                   ^
+src/High/High_float.cpp:273:27: error: 'class High_float' has no member named 'decimals_leading_zero'
+  273 |                         b.decimals_leading_zero + b.decimals.Data().size())) - result.decimals.Data().size();
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:10:23: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                       ^
+src/High/High_float.cpp:273:69: error: request for member 'size' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  273 |                         b.decimals_leading_zero + b.decimals.Data().size())) - result.decimals.Data().size();
+      |                                                                     ^~~~
+src/High/High_float.cpp:10:23: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                       ^
+src/High/High_float.cpp:272:28: error: 'class High_float' has no member named 'decimals_leading_zero'
+  272 |                 (MAX(this->decimals_leading_zero + this->decimals.Data().size(),
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:10:28: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                            ^
+src/High/High_float.cpp:272:74: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  272 |                 (MAX(this->decimals_leading_zero + this->decimals.Data().size(),
+      |                                                                          ^~~~
+src/High/High_float.cpp:10:28: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                            ^
+src/High/High_float.cpp:273:27: error: 'class High_float' has no member named 'decimals_leading_zero'
+  273 |                         b.decimals_leading_zero + b.decimals.Data().size())) - result.decimals.Data().size();
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:10:32: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                                ^
+src/High/High_float.cpp:273:69: error: request for member 'size' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  273 |                         b.decimals_leading_zero + b.decimals.Data().size())) - result.decimals.Data().size();
+      |                                                                     ^~~~
+src/High/High_float.cpp:10:32: note: in definition of macro 'MAX'
+   10 | #define MAX(a,b) (a > b) ? a : b
+      |                                ^
+src/High/High_float.cpp:273:103: error: request for member 'size' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  273 |                         b.decimals_leading_zero + b.decimals.Data().size())) - result.decimals.Data().size();
+      |                                                                                                       ^~~~
+src/High/High_float.cpp: In member function 'High_float High_float::operator-(High_float)':
+src/High/High_float.cpp:316:22: error: 'uint64_t' was not declared in this scope
+  316 |                 for (uint64_t i = 0; i <
+      |                      ^~~~~~~~
+src/High/High_float.cpp:316:22: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:316:38: error: 'i' was not declared in this scope
+  316 |                 for (uint64_t i = 0; i <
+      |                                      ^
+src/High/High_float.cpp:317:31: error: 'class High_float' has no member named 'decimals_leading_zero'
+  317 |                         this->decimals_leading_zero + this->decimals.Data().size(); i++)
+      |                               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:317:77: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  317 |                         this->decimals_leading_zero + this->decimals.Data().size(); i++)
+      |                                                                             ^~~~
+src/High/High_float.cpp:327:24: error: 'class High_float' has no member named 'decimals_leading_zero'
+  327 |                 result.decimals_leading_zero = 0;
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:333:24: error: 'class High_float' has no member named 'decimals_leading_zero'
+  333 |                 result.decimals_leading_zero =
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:334:47: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  334 |                         this->decimals.Data().size() -
+      |                                               ^~~~
+src/High/High_float.cpp:335:48: error: request for member 'size' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  335 |                         result.decimals.Data().size() + this->decimals_leading_zero;
+      |                                                ^~~~
+src/High/High_float.cpp:335:63: error: 'class High_float' has no member named 'decimals_leading_zero'
+  335 |                         result.decimals.Data().size() + this->decimals_leading_zero;
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp: In member function 'High_float High_float::operator*(High_float)':
+src/High/High_float.cpp:350:17: error: request for member 'insert' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  350 |                 insert(multiplier_a.Data().end(),
+      |                 ^~~~~~
+src/High/High_float.cpp:350:44: error: request for member 'end' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  350 |                 insert(multiplier_a.Data().end(),
+      |                                            ^~~
+src/High/High_float.cpp:351:31: error: 'class High_float' has no member named 'decimals_leading_zero'
+  351 |                         this->decimals_leading_zero, 0);
+      |                               ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:354:17: error: request for member 'insert' in 'multiplier_b.High_int::Data()', which is of non-class type 'int'
+  354 |                 insert(multiplier_b.Data().end(),
+      |                 ^~~~~~
+src/High/High_float.cpp:354:44: error: request for member 'end' in 'multiplier_b.High_int::Data()', which is of non-class type 'int'
+  354 |                 insert(multiplier_b.Data().end(),
+      |                                            ^~~
+src/High/High_float.cpp:355:27: error: 'class High_float' has no member named 'decimals_leading_zero'
+  355 |                         b.decimals_leading_zero, 0);
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:359:17: error: request for member 'insert' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  359 |                 insert(multiplier_a.Data().end(),
+      |                 ^~~~~~
+src/High/High_float.cpp:359:44: error: request for member 'end' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  359 |                 insert(multiplier_a.Data().end(),
+      |                                            ^~~
+src/High/High_float.cpp:360:47: error: request for member 'begin' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  360 |                         this->decimals.Data().begin(),
+      |                                               ^~~~~
+src/High/High_float.cpp:361:47: error: request for member 'end' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  361 |                         this->decimals.Data().end());
+      |                                               ^~~
+src/High/High_float.cpp:365:17: error: request for member 'insert' in 'multiplier_b.High_int::Data()', which is of non-class type 'int'
+  365 |                 insert(multiplier_b.Data().end(),
+      |                 ^~~~~~
+src/High/High_float.cpp:365:44: error: request for member 'end' in 'multiplier_b.High_int::Data()', which is of non-class type 'int'
+  365 |                 insert(multiplier_b.Data().end(),
+      |                                            ^~~
+src/High/High_float.cpp:366:43: error: request for member 'begin' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  366 |                         b.decimals.Data().begin(),
+      |                                           ^~~~~
+src/High/High_float.cpp:367:43: error: request for member 'end' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  367 |                         b.decimals.Data().end());
+      |                                           ^~~
+src/High/High_float.cpp:374:9: error: 'int64_t' was not declared in this scope
+  374 |         int64_t digit_decimals = this->decimals_leading_zero + b.decimals_leading_zero;
+      |         ^~~~~~~
+src/High/High_float.cpp:374:9: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:376:17: error: 'digit_decimals' was not declared in this scope
+  376 |                 digit_decimals += this->decimals.Data().size();
+      |                 ^~~~~~~~~~~~~~
+src/High/High_float.cpp:376:57: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  376 |                 digit_decimals += this->decimals.Data().size();
+      |                                                         ^~~~
+src/High/High_float.cpp:378:17: error: 'digit_decimals' was not declared in this scope
+  378 |                 digit_decimals += b.decimals.Data().size();
+      |                 ^~~~~~~~~~~~~~
+src/High/High_float.cpp:378:53: error: request for member 'size' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  378 |                 digit_decimals += b.decimals.Data().size();
+      |                                                     ^~~~
+src/High/High_float.cpp:380:16: error: expected ';' before 'digit_integer'
+  380 |         int64_t digit_integer =
+      |                ^~~~~~~~~~~~~~
+      |                ;
+src/High/High_float.cpp:383:13: error: 'digit_integer' was not declared in this scope
+  383 |         if (digit_integer <= 0)
+      |             ^~~~~~~~~~~~~
+src/High/High_float.cpp:386:40: error: request for member 'clear' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  386 |                 result.decimals.Data().clear();
+      |                                        ^~~~~
+src/High/High_float.cpp:388:25: error: request for member 'insert' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  388 |                         insert(result.decimals.Data().begin(),
+      |                         ^~~~~~
+src/High/High_float.cpp:388:55: error: request for member 'begin' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  388 |                         insert(result.decimals.Data().begin(),
+      |                                                       ^~~~~
+src/High/High_float.cpp:389:33: error: 'digit_decimals' was not declared in this scope
+  389 |                                 digit_decimals - multiplier_a.Data().size(), 0);
+      |                                 ^~~~~~~~~~~~~~
+src/High/High_float.cpp:389:70: error: request for member 'size' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  389 |                                 digit_decimals - multiplier_a.Data().size(), 0);
+      |                                                                      ^~~~
+src/High/High_float.cpp:392:25: error: request for member 'insert' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  392 |                         insert(result.decimals.Data().end(),
+      |                         ^~~~~~
+src/High/High_float.cpp:392:55: error: request for member 'end' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  392 |                         insert(result.decimals.Data().end(),
+      |                                                       ^~~
+src/High/High_float.cpp:393:53: error: request for member 'begin' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  393 |                                 multiplier_a.Data().begin(),
+      |                                                     ^~~~~
+src/High/High_float.cpp:394:53: error: request for member 'end' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  394 |                                 multiplier_a.Data().end());
+      |                                                     ^~~
+src/High/High_float.cpp:398:39: error: request for member 'clear' in 'result.High_float::integer.High_int::Data()', which is of non-class type 'int'
+  398 |                 result.integer.Data().clear();
+      |                                       ^~~~~
+src/High/High_float.cpp:399:40: error: request for member 'clear' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  399 |                 result.decimals.Data().clear();
+      |                                        ^~~~~
+src/High/High_float.cpp:400:47: error: expected ')' before 'multiplier_a'
+  400 |                 if (digit_integer >= (int64_t)multiplier_a.Data().size())
+      |                    ~                          ^~~~~~~~~~~~
+      |                                               )
+src/High/High_float.cpp:403:33: error: request for member 'insert' in 'result.High_float::integer.High_int::Data()', which is of non-class type 'int'
+  403 |                                 insert(result.integer.Data().end(),
+      |                                 ^~~~~~
+src/High/High_float.cpp:403:62: error: request for member 'end' in 'result.High_float::integer.High_int::Data()', which is of non-class type 'int'
+  403 |                                 insert(result.integer.Data().end(),
+      |                                                              ^~~
+src/High/High_float.cpp:404:61: error: request for member 'begin' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  404 |                                         multiplier_a.Data().begin(),
+      |                                                             ^~~~~
+src/High/High_float.cpp:405:61: error: request for member 'end' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  405 |                                         multiplier_a.Data().end());
+      |                                                             ^~~
+src/High/High_float.cpp:408:33: error: request for member 'insert' in 'result.High_float::integer.High_int::Data()', which is of non-class type 'int'
+  408 |                                 insert(result.integer.Data().end(),
+      |                                 ^~~~~~
+src/High/High_float.cpp:408:62: error: request for member 'end' in 'result.High_float::integer.High_int::Data()', which is of non-class type 'int'
+  408 |                                 insert(result.integer.Data().end(),
+      |                                                              ^~~
+src/High/High_float.cpp:409:77: error: request for member 'size' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  409 |                                         digit_integer - multiplier_a.Data().size(), 0);
+      |                                                                             ^~~~
+src/High/High_float.cpp:411:48: error: request for member 'push_back' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  411 |                         result.decimals.Data().push_back(0);
+      |                                                ^~~~~~~~~
+src/High/High_float.cpp:416:33: error: request for member 'insert' in 'result.High_float::integer.High_int::Data()', which is of non-class type 'int'
+  416 |                                 insert(result.integer.Data().end(),
+      |                                 ^~~~~~
+src/High/High_float.cpp:416:62: error: request for member 'end' in 'result.High_float::integer.High_int::Data()', which is of non-class type 'int'
+  416 |                                 insert(result.integer.Data().end(),
+      |                                                              ^~~
+src/High/High_float.cpp:417:61: error: request for member 'begin' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  417 |                                         multiplier_a.Data().begin(),
+      |                                                             ^~~~~
+src/High/High_float.cpp:418:61: error: request for member 'begin' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  418 |                                         multiplier_a.Data().begin() + digit_integer);
+      |                                                             ^~~~~
+src/High/High_float.cpp:421:33: error: request for member 'insert' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  421 |                                 insert(result.decimals.Data().end(),
+      |                                 ^~~~~~
+src/High/High_float.cpp:421:63: error: request for member 'end' in 'result.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  421 |                                 insert(result.decimals.Data().end(),
+      |                                                               ^~~
+src/High/High_float.cpp:422:61: error: request for member 'begin' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  422 |                                         multiplier_a.Data().begin() + digit_integer,
+      |                                                             ^~~~~
+src/High/High_float.cpp:423:61: error: request for member 'end' in 'multiplier_a.High_int::Data()', which is of non-class type 'int'
+  423 |                                         multiplier_a.Data().end());
+      |                                                             ^~~
+src/High/High_float.cpp: In member function 'High_float High_float::operator/(High_float)':
+src/High/High_float.cpp:476:28: error: request for member 'insert' in 'ten.High_int::Data()', which is of non-class type 'int'
+  476 |                 ten.Data().insert(ten.Data().end(), b.decimals.Data().size() + b.decimals_leading_zero, 0);
+      |                            ^~~~~~
+src/High/High_float.cpp:476:46: error: request for member 'end' in 'ten.High_int::Data()', which is of non-class type 'int'
+  476 |                 ten.Data().insert(ten.Data().end(), b.decimals.Data().size() + b.decimals_leading_zero, 0);
+      |                                              ^~~
+src/High/High_float.cpp:476:71: error: request for member 'size' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  476 |                 ten.Data().insert(ten.Data().end(), b.decimals.Data().size() + b.decimals_leading_zero, 0);
+      |                                                                       ^~~~
+src/High/High_float.cpp:476:82: error: 'class High_float' has no member named 'decimals_leading_zero'
+  476 |                 ten.Data().insert(ten.Data().end(), b.decimals.Data().size() + b.decimals_leading_zero, 0);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:480:26: error: request for member 'insert' in 'divisor_b.High_int::Data()', which is of non-class type 'int'
+  480 |         divisor_b.Data().insert(divisor_b.Data().end(),
+      |                          ^~~~~~
+src/High/High_float.cpp:480:50: error: request for member 'end' in 'divisor_b.High_int::Data()', which is of non-class type 'int'
+  480 |         divisor_b.Data().insert(divisor_b.Data().end(),
+      |                                                  ^~~
+src/High/High_float.cpp:481:19: error: 'class High_float' has no member named 'decimals_leading_zero'
+  481 |                 b.decimals_leading_zero, 0);
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:483:34: error: request for member 'insert' in 'divisor_b.High_int::Data()', which is of non-class type 'int'
+  483 |                 divisor_b.Data().insert(divisor_b.Data().end(),
+      |                                  ^~~~~~
+src/High/High_float.cpp:483:58: error: request for member 'end' in 'divisor_b.High_int::Data()', which is of non-class type 'int'
+  483 |                 divisor_b.Data().insert(divisor_b.Data().end(),
+      |                                                          ^~~
+src/High/High_float.cpp:484:43: error: request for member 'begin' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  484 |                         b.decimals.Data().begin(), b.decimals.Data().end());
+      |                                           ^~~~~
+src/High/High_float.cpp:484:70: error: request for member 'end' in 'b.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  484 |                         b.decimals.Data().begin(), b.decimals.Data().end());
+      |                                                                      ^~~
+src/High/High_float.cpp:500:32: error: 'class High_float' has no member named 'decimals_leading_zero'
+  500 |                         result.decimals_leading_zero += 1;
+      |                                ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:504:14: error: 'int64_t' was not declared in this scope
+  504 |         for (int64_t i = 0; i < High_float::precision - 1; i++)
+      |              ^~~~~~~
+src/High/High_float.cpp:504:14: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:504:29: error: 'i' was not declared in this scope
+  504 |         for (int64_t i = 0; i < High_float::precision - 1; i++)
+      |                             ^
+src/High/High_float.cpp:504:45: error: 'precision' is not a member of 'High_float'
+  504 |         for (int64_t i = 0; i < High_float::precision - 1; i++)
+      |                                             ^~~~~~~~~
+src/High/High_float.cpp: At global scope:
+src/High/High_float.cpp:563:1: error: 'int64_t' does not name a type
+  563 | int64_t& High_float::Decimals_leading_zero()
+      | ^~~~~~~
+src/High/High_float.cpp:563:1: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp: In member function 'void High_float::AlignToSuitableSize(High_float&)':
+src/High/High_float.cpp:572:9: error: 'int64_t' was not declared in this scope
+  572 |         int64_t count = (this->decimals.Data().size() + this->decimals_leading_zero) -
+      |         ^~~~~~~
+src/High/High_float.cpp:572:9: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_float.cpp:574:13: error: 'count' was not declared in this scope
+  574 |         if (count >= 0)
+      |             ^~~~~
+src/High/High_float.cpp:575:29: error: expected ';' before 'i'
+  575 |                 for (int64_t i = 0; i < count; i++)
+      |                             ^~
+      |                             ;
+src/High/High_float.cpp:575:37: error: 'i' was not declared in this scope
+  575 |                 for (int64_t i = 0; i < count; i++)
+      |                                     ^
+src/High/High_float.cpp:576:46: error: request for member 'push_back' in 'data.High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  576 |                         data.decimals.Data().push_back(0);
+      |                                              ^~~~~~~~~
+src/High/High_float.cpp: In member function 'void High_float::Shrink_to_fit_of_decimals()':
+src/High/High_float.cpp:584:38: error: request for member 'at' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  584 |         while (this->decimals.Data().at(this->decimals.Data().size() - 1) == 0 && this->decimals.Data().size() > 1)
+      |                                      ^~
+src/High/High_float.cpp:584:63: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  584 |         while (this->decimals.Data().at(this->decimals.Data().size() - 1) == 0 && this->decimals.Data().size() > 1)
+      |                                                               ^~~~
+src/High/High_float.cpp:584:105: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  584 |         while (this->decimals.Data().at(this->decimals.Data().size() - 1) == 0 && this->decimals.Data().size() > 1)
+      |                                                                                                         ^~~~
+src/High/High_float.cpp:586:39: error: request for member 'pop_back' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  586 |                 this->decimals.Data().pop_back();
+      |                                       ^~~~~~~~
+src/High/High_float.cpp:591:43: error: request for member 'at' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  591 |                 if (this->decimals.Data().at(0) == 0 && this->decimals.Data().size() > 1)
+      |                                           ^~
+src/High/High_float.cpp:591:79: error: request for member 'size' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  591 |                 if (this->decimals.Data().at(0) == 0 && this->decimals.Data().size() > 1)
+      |                                                                               ^~~~
+src/High/High_float.cpp:593:47: error: request for member 'erase' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  593 |                         this->decimals.Data().erase(this->decimals.Data().begin());
+      |                                               ^~~~~
+src/High/High_float.cpp:593:75: error: request for member 'begin' in '((High_float*)this)->High_float::decimals.High_int::Data()', which is of non-class type 'int'
+  593 |                         this->decimals.Data().erase(this->decimals.Data().begin());
+      |                                                                           ^~~~~
+src/High/High_float.cpp:594:33: error: 'class High_float' has no member named 'decimals_leading_zero'
+  594 |                         ++this->decimals_leading_zero;
+      |                                 ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_float.cpp:600:23: error: 'class High_float' has no member named 'decimals_leading_zero'
+  600 |                 this->decimals_leading_zero = 0;
+      |                       ^~~~~~~~~~~~~~~~~~~~~
+In file included from src/High/High_int.cpp:2:
+.\include/High/High_int.h:10:27: error: 'int8_t' was not declared in this scope
+   10 |         class std::vector<int8_t> data;
+      |                           ^~~~~~
+.\include/High/High_int.h:4:1: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    3 | #include <string>
+  +++ |+#include <cstdint>
+    4 | // ╤А╨╡╨░╨╗╨╕╨╖╨░╤Ж╨╕╤П ╤З╨╕╤Б╨╡╨╗ ╨┐╤А╨╛╨╕╨╖╨▓╨╛╨╗╤М╨╜╨╛╨╣ ╤В╨╛╤З╨╜╨╛╤Б╤В╨╕
+.\include/High/High_int.h:10:33: error: template argument 1 is invalid
+   10 |         class std::vector<int8_t> data;
+      |                                 ^
+.\include/High/High_int.h:10:33: error: template argument 2 is invalid
+.\include/High/High_int.h:13:24: error: 'int64_t' does not name a type
+   13 |         High_int(const int64_t data);
+      |                        ^~~~~~~
+.\include/High/High_int.h:13:24: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High/High_int.h:18:18: error: expected type-specifier before 'int64_t'
+   18 |         operator int64_t();
+      |                  ^~~~~~~
+.\include/High/High_int.h:21:28: error: 'int64_t' has not been declared
+   21 |         High_int operator=(int64_t data);
+      |                            ^~~~~~~
+.\include/High/High_int.h:21:28: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High/High_int.h:49:23: error: 'int8_t' was not declared in this scope
+   49 |     class std::vector<int8_t>& Data();
+      |                       ^~~~~~
+.\include/High/High_int.h:49:23: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High/High_int.h:49:29: error: template argument 1 is invalid
+   49 |     class std::vector<int8_t>& Data();
+      |                             ^
+.\include/High/High_int.h:49:29: error: template argument 2 is invalid
+src/High/High_int.cpp: In constructor 'High_int::High_int()':
+src/High/High_int.cpp:10:20: error: request for member 'push_back' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+   10 |         this->data.push_back(0);
+      |                    ^~~~~~~~~
+src/High/High_int.cpp: At global scope:
+src/High/High_int.cpp:13:26: error: 'int64_t' does not name a type
+   13 | High_int::High_int(const int64_t data)
+      |                          ^~~~~~~
+src/High/High_int.cpp:3:1: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    2 | #include "High/High_int.h"
+  +++ |+#include <cstdint>
+    3 | 
+src/High/High_int.cpp: In constructor 'High_int::High_int(int)':
+src/High/High_int.cpp:16:20: error: request for member 'push_back' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+   16 |         this->data.push_back(0);
+      |                    ^~~~~~~~~
+src/High/High_int.cpp: At global scope:
+src/High/High_int.cpp:27:10: error: declaration of 'operator=' as non-function
+   27 | High_int High_int::operator=(int64_t data)
+      |          ^~~~~~~~
+src/High/High_int.cpp:27:30: error: 'int64_t' was not declared in this scope
+   27 | High_int High_int::operator=(int64_t data)
+      |                              ^~~~~~~
+src/High/High_int.cpp:27:30: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp: In member function 'High_int High_int::operator=(std::string)':
+src/High/High_int.cpp:57:21: error: request for member 'clear' in 'data.High_int::Data()', which is of non-class type 'int'
+   57 |         data.Data().clear();
+      |                     ^~~~~
+src/High/High_int.cpp:58:14: error: 'uint64_t' was not declared in this scope
+   58 |         for (uint64_t i = 0; i < temp.size(); i++)
+      |              ^~~~~~~~
+src/High/High_int.cpp:58:14: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:58:30: error: 'i' was not declared in this scope
+   58 |         for (uint64_t i = 0; i < temp.size(); i++)
+      |                              ^
+src/High/High_int.cpp:60:37: error: request for member 'push_back' in 'data.High_int::Data()', which is of non-class type 'int'
+   60 |                         data.Data().push_back(temp.at(i) - 48);
+      |                                     ^~~~~~~~~
+src/High/High_int.cpp:61:25: error: request for member 'size' in 'data.High_int::Data()', which is of non-class type 'int'
+   61 |         if (data.Data().size() == 0)
+      |                         ^~~~
+src/High/High_int.cpp:62:29: error: request for member 'push_back' in 'data.High_int::Data()', which is of non-class type 'int'
+   62 |                 data.Data().push_back(0);
+      |                             ^~~~~~~~~
+src/High/High_int.cpp:63:28: error: request for member 'at' in 'data.High_int::Data()', which is of non-class type 'int'
+   63 |         while (data.Data().at(0) == 0 && data != (High_int)0)
+      |                            ^~
+src/High/High_int.cpp:65:29: error: request for member 'erase' in 'data.High_int::Data()', which is of non-class type 'int'
+   65 |                 data.Data().erase(data.Data().begin());
+      |                             ^~~~~
+src/High/High_int.cpp:65:47: error: request for member 'begin' in 'data.High_int::Data()', which is of non-class type 'int'
+   65 |                 data.Data().erase(data.Data().begin());
+      |                                               ^~~~~
+src/High/High_int.cpp: At global scope:
+src/High/High_int.cpp:73:20: error: expected type-specifier before 'int64_t'
+   73 | High_int::operator int64_t()
+      |                    ^~~~~~~
+src/High/High_int.cpp: In member function 'High_int::operator std::string()':
+src/High/High_int.cpp:95:14: error: 'uint64_t' was not declared in this scope
+   95 |         for (uint64_t i = 0; i < this->data.size(); i++)
+      |              ^~~~~~~~
+src/High/High_int.cpp:95:14: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:95:30: error: 'i' was not declared in this scope
+   95 |         for (uint64_t i = 0; i < this->data.size(); i++)
+      |                              ^
+src/High/High_int.cpp:95:45: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+   95 |         for (uint64_t i = 0; i < this->data.size(); i++)
+      |                                             ^~~~
+src/High/High_int.cpp:97:43: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+   97 |                 data.push_back(this->data.at(i) + 48);
+      |                                           ^~
+src/High/High_int.cpp: In member function 'bool High_int::operator>(High_int)':
+src/High/High_int.cpp:117:32: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  117 |                 if (this->data.size() > data.Data().size()) return true;
+      |                                ^~~~
+src/High/High_int.cpp:117:53: error: request for member 'size' in 'data.High_int::Data()', which is of non-class type 'int'
+  117 |                 if (this->data.size() > data.Data().size()) return true;
+      |                                                     ^~~~
+src/High/High_int.cpp:118:32: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  118 |                 if (this->data.size() < data.Data().size()) return false;
+      |                                ^~~~
+src/High/High_int.cpp:118:53: error: request for member 'size' in 'data.High_int::Data()', which is of non-class type 'int'
+  118 |                 if (this->data.size() < data.Data().size()) return false;
+      |                                                     ^~~~
+src/High/High_int.cpp:119:22: error: 'uint64_t' was not declared in this scope
+  119 |                 for (uint64_t i = 0; i < this->data.size(); i++)
+      |                      ^~~~~~~~
+src/High/High_int.cpp:119:22: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:119:38: error: 'i' was not declared in this scope
+  119 |                 for (uint64_t i = 0; i < this->data.size(); i++)
+      |                                      ^
+src/High/High_int.cpp:119:53: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  119 |                 for (uint64_t i = 0; i < this->data.size(); i++)
+      |                                                     ^~~~
+src/High/High_int.cpp:121:40: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  121 |                         if (this->data.at(i) > data.Data().at(i)) return true;
+      |                                        ^~
+src/High/High_int.cpp:121:60: error: request for member 'at' in 'data.High_int::Data()', which is of non-class type 'int'
+  121 |                         if (this->data.at(i) > data.Data().at(i)) return true;
+      |                                                            ^~
+src/High/High_int.cpp:122:45: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  122 |                         else if (this->data.at(i) < data.Data().at(i)) return false;
+      |                                             ^~
+src/High/High_int.cpp:122:65: error: request for member 'at' in 'data.High_int::Data()', which is of non-class type 'int'
+  122 |                         else if (this->data.at(i) < data.Data().at(i)) return false;
+      |                                                                 ^~
+src/High/High_int.cpp:127:32: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  127 |                 if (this->data.size() > data.Data().size()) return false;
+      |                                ^~~~
+src/High/High_int.cpp:127:53: error: request for member 'size' in 'data.High_int::Data()', which is of non-class type 'int'
+  127 |                 if (this->data.size() > data.Data().size()) return false;
+      |                                                     ^~~~
+src/High/High_int.cpp:128:32: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  128 |                 if (this->data.size() < data.Data().size()) return true;
+      |                                ^~~~
+src/High/High_int.cpp:128:53: error: request for member 'size' in 'data.High_int::Data()', which is of non-class type 'int'
+  128 |                 if (this->data.size() < data.Data().size()) return true;
+      |                                                     ^~~~
+src/High/High_int.cpp:129:22: error: 'uint64_t' was not declared in this scope
+  129 |                 for (uint64_t i = 0; i < this->data.size(); i++)
+      |                      ^~~~~~~~
+src/High/High_int.cpp:129:22: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:129:38: error: 'i' was not declared in this scope
+  129 |                 for (uint64_t i = 0; i < this->data.size(); i++)
+      |                                      ^
+src/High/High_int.cpp:129:53: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  129 |                 for (uint64_t i = 0; i < this->data.size(); i++)
+      |                                                     ^~~~
+src/High/High_int.cpp:131:40: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  131 |                         if (this->data.at(i) > data.Data().at(i)) return false;
+      |                                        ^~
+src/High/High_int.cpp:131:60: error: request for member 'at' in 'data.High_int::Data()', which is of non-class type 'int'
+  131 |                         if (this->data.at(i) > data.Data().at(i)) return false;
+      |                                                            ^~
+src/High/High_int.cpp:132:45: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  132 |                         else if (this->data.at(i) < data.Data().at(i)) return true;
+      |                                             ^~
+src/High/High_int.cpp:132:65: error: request for member 'at' in 'data.High_int::Data()', which is of non-class type 'int'
+  132 |                         else if (this->data.at(i) < data.Data().at(i)) return true;
+      |                                                                 ^~
+src/High/High_int.cpp: In member function 'High_int High_int::operator+(High_int)':
+src/High/High_int.cpp:186:14: error: 'uint64_t' was not declared in this scope
+  186 |         for (uint64_t i = 0; i < this->data.size(); i++)
+      |              ^~~~~~~~
+src/High/High_int.cpp:186:14: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:186:30: error: 'i' was not declared in this scope
+  186 |         for (uint64_t i = 0; i < this->data.size(); i++)
+      |                              ^
+src/High/High_int.cpp:186:45: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  186 |         for (uint64_t i = 0; i < this->data.size(); i++)
+      |                                             ^~~~
+src/High/High_int.cpp:188:31: error: request for member 'at' in 'result.High_int::Data()', which is of non-class type 'int'
+  188 |                 result.Data().at(this->data.size() - 1 - i) +=
+      |                               ^~
+src/High/High_int.cpp:188:45: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  188 |                 result.Data().at(this->data.size() - 1 - i) +=
+      |                                             ^~~~
+src/High/High_int.cpp:189:36: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  189 |                         this->data.at(this->data.size() - 1 - i) + b.Data().at(this->data.size() - 1 - i);
+      |                                    ^~
+src/High/High_int.cpp:189:50: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  189 |                         this->data.at(this->data.size() - 1 - i) + b.Data().at(this->data.size() - 1 - i);
+      |                                                  ^~~~
+src/High/High_int.cpp:189:77: error: request for member 'at' in 'b.High_int::Data()', which is of non-class type 'int'
+  189 |                         this->data.at(this->data.size() - 1 - i) + b.Data().at(this->data.size() - 1 - i);
+      |                                                                             ^~
+src/High/High_int.cpp:189:91: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  189 |                         this->data.at(this->data.size() - 1 - i) + b.Data().at(this->data.size() - 1 - i);
+      |                                                                                           ^~~~
+src/High/High_int.cpp:190:35: error: request for member 'at' in 'result.High_int::Data()', which is of non-class type 'int'
+  190 |                 if (result.Data().at(this->data.size() - 1 - i) >= 10
+      |                                   ^~
+src/High/High_int.cpp:190:49: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  190 |                 if (result.Data().at(this->data.size() - 1 - i) >= 10
+      |                                                 ^~~~
+src/High/High_int.cpp:192:37: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  192 |                         (this->data.size() - 1 - i) == 0)
+      |                                     ^~~~
+src/High/High_int.cpp:194:39: error: request for member 'at' in 'result.High_int::Data()', which is of non-class type 'int'
+  194 |                         result.Data().at(this->data.size() - 1 - i) -= 10;
+      |                                       ^~
+src/High/High_int.cpp:194:53: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  194 |                         result.Data().at(this->data.size() - 1 - i) -= 10;
+      |                                                     ^~~~
+src/High/High_int.cpp:195:39: error: request for member 'insert' in 'result.High_int::Data()', which is of non-class type 'int'
+  195 |                         result.Data().insert(result.Data().begin(), 1);
+      |                                       ^~~~~~
+src/High/High_int.cpp:195:60: error: request for member 'begin' in 'result.High_int::Data()', which is of non-class type 'int'
+  195 |                         result.Data().insert(result.Data().begin(), 1);
+      |                                                            ^~~~~
+src/High/High_int.cpp:197:40: error: request for member 'at' in 'result.High_int::Data()', which is of non-class type 'int'
+  197 |                 else if (result.Data().at(this->data.size() - 1 - i) >= 10)
+      |                                        ^~
+src/High/High_int.cpp:197:54: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  197 |                 else if (result.Data().at(this->data.size() - 1 - i) >= 10)
+      |                                                      ^~~~
+src/High/High_int.cpp:199:39: error: request for member 'at' in 'result.High_int::Data()', which is of non-class type 'int'
+  199 |                         result.Data().at(this->data.size() - 1 - i) -= 10;
+      |                                       ^~
+src/High/High_int.cpp:199:53: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  199 |                         result.Data().at(this->data.size() - 1 - i) -= 10;
+      |                                                     ^~~~
+src/High/High_int.cpp:200:41: error: request for member 'at' in 'result.High_int::Data()', which is of non-class type 'int'
+  200 |                         ++result.Data().at(this->data.size() - 2 - i);
+      |                                         ^~
+src/High/High_int.cpp:200:55: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  200 |                         ++result.Data().at(this->data.size() - 2 - i);
+      |                                                       ^~~~
+src/High/High_int.cpp: In member function 'High_int High_int::operator-(High_int)':
+src/High/High_int.cpp:239:14: error: 'uint64_t' was not declared in this scope
+  239 |         for (uint64_t i = 0; i < a.data.size(); i++)
+      |              ^~~~~~~~
+src/High/High_int.cpp:239:14: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:239:30: error: 'i' was not declared in this scope
+  239 |         for (uint64_t i = 0; i < a.data.size(); i++)
+      |                              ^
+src/High/High_int.cpp:239:41: error: request for member 'size' in 'a.High_int::data', which is of non-class type 'int'
+  239 |         for (uint64_t i = 0; i < a.data.size(); i++)
+      |                                         ^~~~
+src/High/High_int.cpp:241:30: error: request for member 'at' in 'a.High_int::Data()', which is of non-class type 'int'
+  241 |                 if (a.Data().at(a.Data().size() - 1 - i) < b.Data().at(a.Data().size() - 1 - i))
+      |                              ^~
+src/High/High_int.cpp:241:42: error: request for member 'size' in 'a.High_int::Data()', which is of non-class type 'int'
+  241 |                 if (a.Data().at(a.Data().size() - 1 - i) < b.Data().at(a.Data().size() - 1 - i))
+      |                                          ^~~~
+src/High/High_int.cpp:241:69: error: request for member 'at' in 'b.High_int::Data()', which is of non-class type 'int'
+  241 |                 if (a.Data().at(a.Data().size() - 1 - i) < b.Data().at(a.Data().size() - 1 - i))
+      |                                                                     ^~
+src/High/High_int.cpp:241:81: error: request for member 'size' in 'a.High_int::Data()', which is of non-class type 'int'
+  241 |                 if (a.Data().at(a.Data().size() - 1 - i) < b.Data().at(a.Data().size() - 1 - i))
+      |                                                                                 ^~~~
+src/High/High_int.cpp:243:34: error: request for member 'at' in 'a.High_int::Data()', which is of non-class type 'int'
+  243 |                         a.Data().at(a.Data().size() - 1 - i) += 10;
+      |                                  ^~
+src/High/High_int.cpp:243:46: error: request for member 'size' in 'a.High_int::Data()', which is of non-class type 'int'
+  243 |                         a.Data().at(a.Data().size() - 1 - i) += 10;
+      |                                              ^~~~
+src/High/High_int.cpp:244:36: error: request for member 'at' in 'a.High_int::Data()', which is of non-class type 'int'
+  244 |                         --a.Data().at(a.Data().size() - 2 - i);
+      |                                    ^~
+src/High/High_int.cpp:244:48: error: request for member 'size' in 'a.High_int::Data()', which is of non-class type 'int'
+  244 |                         --a.Data().at(a.Data().size() - 2 - i);
+      |                                                ^~~~
+src/High/High_int.cpp:246:31: error: request for member 'at' in 'result.High_int::Data()', which is of non-class type 'int'
+  246 |                 result.Data().at(a.Data().size() - 1 - i) +=
+      |                               ^~
+src/High/High_int.cpp:246:43: error: request for member 'size' in 'a.High_int::Data()', which is of non-class type 'int'
+  246 |                 result.Data().at(a.Data().size() - 1 - i) +=
+      |                                           ^~~~
+src/High/High_int.cpp:247:34: error: request for member 'at' in 'a.High_int::Data()', which is of non-class type 'int'
+  247 |                         a.Data().at(a.Data().size() - 1 - i) - b.Data().at(a.Data().size() - 1 - i);
+      |                                  ^~
+src/High/High_int.cpp:247:46: error: request for member 'size' in 'a.High_int::Data()', which is of non-class type 'int'
+  247 |                         a.Data().at(a.Data().size() - 1 - i) - b.Data().at(a.Data().size() - 1 - i);
+      |                                              ^~~~
+src/High/High_int.cpp:247:73: error: request for member 'at' in 'b.High_int::Data()', which is of non-class type 'int'
+  247 |                         a.Data().at(a.Data().size() - 1 - i) - b.Data().at(a.Data().size() - 1 - i);
+      |                                                                         ^~
+src/High/High_int.cpp:247:85: error: request for member 'size' in 'a.High_int::Data()', which is of non-class type 'int'
+  247 |                         a.Data().at(a.Data().size() - 1 - i) - b.Data().at(a.Data().size() - 1 - i);
+      |                                                                                     ^~~~
+src/High/High_int.cpp: In member function 'High_int High_int::operator*(High_int)':
+src/High/High_int.cpp:257:9: error: 'int64_t' was not declared in this scope
+  257 |         int64_t a_size = this->data.size();
+      |         ^~~~~~~
+src/High/High_int.cpp:257:9: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:258:16: error: expected ';' before 'b_size'
+  258 |         int64_t b_size = b.Data().size();
+      |                ^~~~~~~
+      |                ;
+src/High/High_int.cpp:290:21: error: expected ';' before 'i'
+  290 |         for (int64_t i = 0; i < b_size; i++)
+      |                     ^~
+      |                     ;
+src/High/High_int.cpp:290:29: error: 'i' was not declared in this scope
+  290 |         for (int64_t i = 0; i < b_size; i++)
+      |                             ^
+src/High/High_int.cpp:290:33: error: 'b_size' was not declared in this scope; did you mean '_msize'?
+  290 |         for (int64_t i = 0; i < b_size; i++)
+      |                                 ^~~~~~
+      |                                 _msize
+src/High/High_int.cpp:292:29: error: expected ';' before 'j'
+  292 |                 for (int64_t j = 0; j < a_size; j++)
+      |                             ^~
+      |                             ;
+src/High/High_int.cpp:292:37: error: 'j' was not declared in this scope
+  292 |                 for (int64_t j = 0; j < a_size; j++)
+      |                                     ^
+src/High/High_int.cpp:292:41: error: 'a_size' was not declared in this scope; did you mean '_msize'?
+  292 |                 for (int64_t j = 0; j < a_size; j++)
+      |                                         ^~~~~~
+      |                                         _msize
+src/High/High_int.cpp:294:44: error: request for member 'at' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  294 |                         temp_result.Data().at(this->data.size() - 1 - j) +=
+      |                                            ^~
+src/High/High_int.cpp:294:58: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  294 |                         temp_result.Data().at(this->data.size() - 1 - j) +=
+      |                                                          ^~~~
+src/High/High_int.cpp:295:42: error: request for member 'at' in 'b.High_int::Data()', which is of non-class type 'int'
+  295 |                                 b.Data().at(this->data.size() - 1 - i) * this->data.at(this->data.size() - 1 - j);
+      |                                          ^~
+src/High/High_int.cpp:295:56: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  295 |                                 b.Data().at(this->data.size() - 1 - i) * this->data.at(this->data.size() - 1 - j);
+      |                                                        ^~~~
+src/High/High_int.cpp:295:85: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  295 |                                 b.Data().at(this->data.size() - 1 - i) * this->data.at(this->data.size() - 1 - j);
+      |                                                                                     ^~
+src/High/High_int.cpp:295:99: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  295 |                                 b.Data().at(this->data.size() - 1 - i) * this->data.at(this->data.size() - 1 - j);
+      |                                                                                                   ^~~~
+src/High/High_int.cpp:296:48: error: request for member 'at' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  296 |                         if (temp_result.Data().at(this->data.size() - 1 - j) >= 10 && this->data.size() - 1 - j == 0)
+      |                                                ^~
+src/High/High_int.cpp:296:62: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  296 |                         if (temp_result.Data().at(this->data.size() - 1 - j) >= 10 && this->data.size() - 1 - j == 0)
+      |                                                              ^~~~
+src/High/High_int.cpp:296:98: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  296 |                         if (temp_result.Data().at(this->data.size() - 1 - j) >= 10 && this->data.size() - 1 - j == 0)
+      |                                                                                                  ^~~~
+src/High/High_int.cpp:298:52: error: request for member 'insert' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  298 |                                 temp_result.Data().insert(temp_result.data.begin(), temp_result.Data().at(this->data.size() - 1 - j) / 10);
+      |                                                    ^~~~~~
+src/High/High_int.cpp:298:76: error: request for member 'begin' in 'temp_result.High_int::data', which is of non-class type 'int'
+  298 |                                 temp_result.Data().insert(temp_result.data.begin(), temp_result.Data().at(this->data.size() - 1 - j) / 10);
+      |                                                                            ^~~~~
+src/High/High_int.cpp:298:104: error: request for member 'at' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  298 |                                 temp_result.Data().insert(temp_result.data.begin(), temp_result.Data().at(this->data.size() - 1 - j) / 10);
+      |                                                                                                        ^~
+src/High/High_int.cpp:298:118: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  298 |                                 temp_result.Data().insert(temp_result.data.begin(), temp_result.Data().at(this->data.size() - 1 - j) / 10);
+      |                                                                                                                      ^~~~
+src/High/High_int.cpp:299:52: error: request for member 'at' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  299 |                                 temp_result.Data().at(this->data.size() - j) %= 10;
+      |                                                    ^~
+src/High/High_int.cpp:299:66: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  299 |                                 temp_result.Data().at(this->data.size() - j) %= 10;
+      |                                                                  ^~~~
+src/High/High_int.cpp:301:53: error: request for member 'at' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  301 |                         else if (temp_result.Data().at(this->data.size() - 1 - j) >= 10)
+      |                                                     ^~
+src/High/High_int.cpp:301:67: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  301 |                         else if (temp_result.Data().at(this->data.size() - 1 - j) >= 10)
+      |                                                                   ^~~~
+src/High/High_int.cpp:303:52: error: request for member 'at' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  303 |                                 temp_result.Data().at(this->data.size() - 2 - j) +=
+      |                                                    ^~
+src/High/High_int.cpp:303:66: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  303 |                                 temp_result.Data().at(this->data.size() - 2 - j) +=
+      |                                                                  ^~~~
+src/High/High_int.cpp:304:60: error: request for member 'at' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  304 |                                         temp_result.Data().at(this->data.size() - 1 - j) / 10;
+      |                                                            ^~
+src/High/High_int.cpp:304:74: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  304 |                                         temp_result.Data().at(this->data.size() - 1 - j) / 10;
+      |                                                                          ^~~~
+src/High/High_int.cpp:305:52: error: request for member 'at' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  305 |                                 temp_result.Data().at(this->data.size() - 1 - j) %= 10;
+      |                                                    ^~
+src/High/High_int.cpp:305:66: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  305 |                                 temp_result.Data().at(this->data.size() - 1 - j) %= 10;
+      |                                                                  ^~~~
+src/High/High_int.cpp:308:36: error: request for member 'insert' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  308 |                 temp_result.Data().insert(temp_result.Data().end(), i, 0);
+      |                                    ^~~~~~
+src/High/High_int.cpp:308:62: error: request for member 'end' in 'temp_result.High_int::Data()', which is of non-class type 'int'
+  308 |                 temp_result.Data().insert(temp_result.Data().end(), i, 0);
+      |                                                              ^~~
+src/High/High_int.cpp: In member function 'High_int High_int::operator/(High_int)':
+src/High/High_int.cpp:323:9: error: 'uint64_t' was not declared in this scope
+  323 |         uint64_t align_position = 0;
+      |         ^~~~~~~~
+src/High/High_int.cpp:323:9: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:324:17: error: expected ';' before 'temp_record'
+  324 |         uint64_t temp_record = 0;
+      |                 ^~~~~~~~~~~~
+      |                 ;
+src/High/High_int.cpp:325:23: error: request for member 'clear' in 'result.High_int::Data()', which is of non-class type 'int'
+  325 |         result.Data().clear();
+      |                       ^~~~~
+src/High/High_int.cpp:326:26: error: request for member 'clear' in 'remainder.High_int::Data()', which is of non-class type 'int'
+  326 |         remainder.Data().clear();
+      |                          ^~~~~
+src/High/High_int.cpp:356:21: error: 'temp_record' was not declared in this scope
+  356 |                 if (temp_record == this->data.size())
+      |                     ^~~~~~~~~~~
+src/High/High_int.cpp:356:47: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  356 |                 if (temp_record == this->data.size())
+      |                                               ^~~~
+src/High/High_int.cpp:358:34: error: request for member 'push_back' in 'remainder.High_int::Data()', which is of non-class type 'int'
+  358 |                 remainder.Data().push_back(this->data.at(temp_record++));
+      |                                  ^~~~~~~~~
+src/High/High_int.cpp:358:55: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  358 |                 remainder.Data().push_back(this->data.at(temp_record++));
+      |                                                       ^~
+src/High/High_int.cpp:358:58: error: 'temp_record' was not declared in this scope
+  358 |                 remainder.Data().push_back(this->data.at(temp_record++));
+      |                                                          ^~~~~~~~~~~
+src/High/High_int.cpp:360:9: error: 'align_position' was not declared in this scope
+  360 |         align_position = remainder.data.size() - 1;
+      |         ^~~~~~~~~~~~~~
+src/High/High_int.cpp:360:41: error: request for member 'size' in 'remainder.High_int::data', which is of non-class type 'int'
+  360 |         align_position = remainder.data.size() - 1;
+      |                                         ^~~~
+src/High/High_int.cpp:362:28: error: request for member 'size' in 'result.High_int::data', which is of non-class type 'int'
+  362 |         while (result.data.size() + align_position < this->data.size())
+      |                            ^~~~
+src/High/High_int.cpp:362:65: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  362 |         while (result.data.size() + align_position < this->data.size())
+      |                                                                 ^~~~
+src/High/High_int.cpp:364:31: error: request for member 'push_back' in 'result.High_int::Data()', which is of non-class type 'int'
+  364 |                 result.Data().push_back(remainder.basic_Division(b));
+      |                               ^~~~~~~~~
+src/High/High_int.cpp:365:54: error: request for member 'at' in 'result.High_int::Data()', which is of non-class type 'int'
+  365 |                 remainder -= (High_int)result.Data().at(result.Data().size() - 1) * b;
+      |                                                      ^~
+src/High/High_int.cpp:365:71: error: request for member 'size' in 'result.High_int::Data()', which is of non-class type 'int'
+  365 |                 remainder -= (High_int)result.Data().at(result.Data().size() - 1) * b;
+      |                                                                       ^~~~
+src/High/High_int.cpp:367:36: error: request for member 'size' in 'remainder.High_int::data', which is of non-class type 'int'
+  367 |                 if (remainder.data.size() == 1 && remainder.data.at(0) == 0)
+      |                                    ^~~~
+src/High/High_int.cpp:367:66: error: request for member 'at' in 'remainder.High_int::data', which is of non-class type 'int'
+  367 |                 if (remainder.data.size() == 1 && remainder.data.at(0) == 0)
+      |                                                                  ^~
+src/High/High_int.cpp:368:40: error: request for member 'clear' in 'remainder.High_int::data', which is of non-class type 'int'
+  368 |                         remainder.data.clear();
+      |                                        ^~~~~
+src/High/High_int.cpp:372:29: error: 'temp_record' was not declared in this scope
+  372 |                         if (temp_record == this->data.size())
+      |                             ^~~~~~~~~~~
+src/High/High_int.cpp:372:55: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  372 |                         if (temp_record == this->data.size())
+      |                                                       ^~~~
+src/High/High_int.cpp:374:42: error: request for member 'push_back' in 'remainder.High_int::Data()', which is of non-class type 'int'
+  374 |                         remainder.Data().push_back(this->data.at(temp_record++));
+      |                                          ^~~~~~~~~
+src/High/High_int.cpp:374:63: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  374 |                         remainder.Data().push_back(this->data.at(temp_record++));
+      |                                                               ^~
+src/High/High_int.cpp:374:66: error: 'temp_record' was not declared in this scope
+  374 |                         remainder.Data().push_back(this->data.at(temp_record++));
+      |                                                                  ^~~~~~~~~~~
+src/High/High_int.cpp:376:45: error: request for member 'push_back' in 'result.High_int::data', which is of non-class type 'int'
+  376 |                                 result.data.push_back(0);
+      |                                             ^~~~~~~~~
+src/High/High_int.cpp: At global scope:
+src/High/High_int.cpp:449:13: error: 'int8_t' was not declared in this scope
+  449 | std::vector<int8_t>& High_int::Data()
+      |             ^~~~~~
+src/High/High_int.cpp:449:13: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_int.cpp:449:19: error: template argument 1 is invalid
+  449 | std::vector<int8_t>& High_int::Data()
+      |                   ^
+src/High/High_int.cpp:449:19: error: template argument 2 is invalid
+src/High/High_int.cpp: In member function 'void High_int::AlignToSuitableSize(High_int&)':
+src/High/High_int.cpp:462:29: error: request for member 'insert' in '(& data)->High_int::Data()', which is of non-class type 'int'
+  462 |                 data.Data().insert(data.Data().begin(), this->data.size() - data.Data().size(), 0);
+      |                             ^~~~~~
+src/High/High_int.cpp:462:48: error: request for member 'begin' in '(& data)->High_int::Data()', which is of non-class type 'int'
+  462 |                 data.Data().insert(data.Data().begin(), this->data.size() - data.Data().size(), 0);
+      |                                                ^~~~~
+src/High/High_int.cpp:462:68: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  462 |                 data.Data().insert(data.Data().begin(), this->data.size() - data.Data().size(), 0);
+      |                                                                    ^~~~
+src/High/High_int.cpp:462:89: error: request for member 'size' in '(& data)->High_int::Data()', which is of non-class type 'int'
+  462 |                 data.Data().insert(data.Data().begin(), this->data.size() - data.Data().size(), 0);
+      |                                                                                         ^~~~
+src/High/High_int.cpp: In member function 'void High_int::Shrink_to_fit()':
+src/High/High_int.cpp:470:24: error: request for member 'size' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  470 |         if (this->data.size() == 0)
+      |                        ^~~~
+src/High/High_int.cpp:472:28: error: request for member 'push_back' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  472 |                 this->data.push_back(0);
+      |                            ^~~~~~~~~
+src/High/High_int.cpp:475:27: error: request for member 'at' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  475 |         while (this->data.at(0) == 0 && *this != High_int_NULL)
+      |                           ^~
+src/High/High_int.cpp:477:28: error: request for member 'erase' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  477 |                 this->data.erase(this->data.begin());
+      |                            ^~~~~
+src/High/High_int.cpp:477:45: error: request for member 'begin' in '((High_int*)this)->High_int::data', which is of non-class type 'int'
+  477 |                 this->data.erase(this->data.begin());
+      |                                             ^~~~~
+In file included from .\include/High\High_io.h:4,
+                 from src/High/High_io.cpp:1:
+.\include/High\High_int.h:10:27: error: 'int8_t' was not declared in this scope
+   10 |         class std::vector<int8_t> data;
+      |                           ^~~~~~
+.\include/High\High_int.h:3:1: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    2 | #include <vector>
+  +++ |+#include <cstdint>
+    3 | #include <string>
+.\include/High\High_int.h:10:33: error: template argument 1 is invalid
+   10 |         class std::vector<int8_t> data;
+      |                                 ^
+.\include/High\High_int.h:10:33: error: template argument 2 is invalid
+.\include/High\High_int.h:13:24: error: 'int64_t' does not name a type
+   13 |         High_int(const int64_t data);
+      |                        ^~~~~~~
+.\include/High\High_int.h:13:24: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_int.h:18:18: error: expected type-specifier before 'int64_t'
+   18 |         operator int64_t();
+      |                  ^~~~~~~
+.\include/High\High_int.h:21:28: error: 'int64_t' has not been declared
+   21 |         High_int operator=(int64_t data);
+      |                            ^~~~~~~
+.\include/High\High_int.h:21:28: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_int.h:49:23: error: 'int8_t' was not declared in this scope
+   49 |     class std::vector<int8_t>& Data();
+      |                       ^~~~~~
+.\include/High\High_int.h:49:23: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_int.h:49:29: error: template argument 1 is invalid
+   49 |     class std::vector<int8_t>& Data();
+      |                             ^
+.\include/High\High_int.h:49:29: error: template argument 2 is invalid
+In file included from .\include/High\High_io.h:5:
+.\include/High\High_float.h:16:9: error: 'int64_t' does not name a type
+   16 |         int64_t decimals_leading_zero;
+      |         ^~~~~~~
+.\include/High\High_float.h:1:1: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+  +++ |+#include <cstdint>
+    1 | #pragma once
+.\include/High\High_float.h:18:16: error: 'int64_t' does not name a type
+   18 |         static int64_t precision;
+      |                ^~~~~~~
+.\include/High\High_float.h:18:16: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_float.h:55:27: error: 'int64_t' has not been declared
+   55 |         void setprecision(int64_t precision);
+      |                           ^~~~~~~
+.\include/High\High_float.h:55:27: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_float.h:61:9: error: 'int64_t' does not name a type
+   61 |         int64_t& Decimals_leading_zero();
+      |         ^~~~~~~
+.\include/High\High_float.h:61:9: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_io.cpp: In function 'std::istream& operator>>(std::istream&, High_int&)':
+src/High/High_io.cpp:5:21: error: request for member 'clear' in '(& data)->High_int::Data()', which is of non-class type 'int'
+    5 |         data.Data().clear();
+      |                     ^~~~~
+src/High/High_io.cpp:8:14: error: 'uint64_t' was not declared in this scope
+    8 |         for (uint64_t i = 0; i < temp.size(); i++)
+      |              ^~~~~~~~
+src/High/High_io.cpp:2:1: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    1 | #include "High\High_io.h"
+  +++ |+#include <cstdint>
+    2 | 
+src/High/High_io.cpp:8:30: error: 'i' was not declared in this scope
+    8 |         for (uint64_t i = 0; i < temp.size(); i++)
+      |                              ^
+src/High/High_io.cpp:10:37: error: request for member 'push_back' in '(& data)->High_int::Data()', which is of non-class type 'int'
+   10 |                         data.Data().push_back(temp.at(i) - 48);
+      |                                     ^~~~~~~~~
+src/High/High_io.cpp:11:25: error: request for member 'size' in '(& data)->High_int::Data()', which is of non-class type 'int'
+   11 |         if (data.Data().size() == 0)
+      |                         ^~~~
+src/High/High_io.cpp:12:29: error: request for member 'push_back' in '(& data)->High_int::Data()', which is of non-class type 'int'
+   12 |                 data.Data().push_back(0);
+      |                             ^~~~~~~~~
+src/High/High_io.cpp:13:28: error: request for member 'at' in '(& data)->High_int::Data()', which is of non-class type 'int'
+   13 |         while (data.Data().at(0) == 0 && data != (High_int)0)
+      |                            ^~
+src/High/High_io.cpp:15:29: error: request for member 'erase' in '(& data)->High_int::Data()', which is of non-class type 'int'
+   15 |                 data.Data().erase(data.Data().begin());
+      |                             ^~~~~
+src/High/High_io.cpp:15:47: error: request for member 'begin' in '(& data)->High_int::Data()', which is of non-class type 'int'
+   15 |                 data.Data().erase(data.Data().begin());
+      |                                               ^~~~~
+src/High/High_io.cpp: In function 'std::ostream& operator<<(std::ostream&, High_int)':
+src/High/High_io.cpp:25:14: error: 'uint64_t' was not declared in this scope
+   25 |         for (uint64_t i = 0; i != data.Data().size(); i++)
+      |              ^~~~~~~~
+src/High/High_io.cpp:25:14: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_io.cpp:25:30: error: 'i' was not declared in this scope
+   25 |         for (uint64_t i = 0; i != data.Data().size(); i++)
+      |                              ^
+src/High/High_io.cpp:25:47: error: request for member 'size' in 'data.High_int::Data()', which is of non-class type 'int'
+   25 |         for (uint64_t i = 0; i != data.Data().size(); i++)
+      |                                               ^~~~
+src/High/High_io.cpp:27:31: error: 'int64_t' was not declared in this scope
+   27 |                 std::cout << (int64_t)data.Data().at(i);
+      |                               ^~~~~~~
+src/High/High_io.cpp:27:31: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_io.cpp: In function 'std::istream& operator>>(std::istream&, High_float&)':
+src/High/High_io.cpp:34:31: error: request for member 'clear' in '(&(& data)->High_float::Integer())->High_int::Data()', which is of non-class type 'int'
+   34 |         data.Integer().Data().clear();
+      |                               ^~~~~
+src/High/High_io.cpp:35:32: error: request for member 'clear' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   35 |         data.Decimals().Data().clear();
+      |                                ^~~~~
+src/High/High_io.cpp:36:14: error: 'class High_float' has no member named 'Decimals_leading_zero'
+   36 |         data.Decimals_leading_zero() = 0;
+      |              ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_io.cpp:39:9: error: 'int64_t' was not declared in this scope
+   39 |         int64_t integer_size = temp.find(".");
+      |         ^~~~~~~
+src/High/High_io.cpp:39:9: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_io.cpp:40:13: error: 'integer_size' was not declared in this scope
+   40 |         if (integer_size < 0)
+      |             ^~~~~~~~~~~~
+src/High/High_io.cpp:42:22: error: 'uint64_t' was not declared in this scope
+   42 |                 for (uint64_t i = 0; i < temp.size(); i++)
+      |                      ^~~~~~~~
+src/High/High_io.cpp:42:22: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_io.cpp:42:38: error: 'i' was not declared in this scope
+   42 |                 for (uint64_t i = 0; i < temp.size(); i++)
+      |                                      ^
+src/High/High_io.cpp:44:55: error: request for member 'push_back' in '(&(& data)->High_float::Integer())->High_int::Data()', which is of non-class type 'int'
+   44 |                                 data.Integer().Data().push_back(temp.at(i) - 48);
+      |                                                       ^~~~~~~~~
+src/High/High_io.cpp:48:29: error: expected ';' before 'i'
+   48 |                 for (int64_t i = 0; i < integer_size; i++)
+      |                             ^~
+      |                             ;
+src/High/High_io.cpp:48:37: error: 'i' was not declared in this scope
+   48 |                 for (int64_t i = 0; i < integer_size; i++)
+      |                                     ^
+src/High/High_io.cpp:50:55: error: request for member 'push_back' in '(&(& data)->High_float::Integer())->High_int::Data()', which is of non-class type 'int'
+   50 |                                 data.Integer().Data().push_back(temp.at(i) - 48);
+      |                                                       ^~~~~~~~~
+src/High/High_io.cpp:52:22: error: 'uint64_t' was not declared in this scope
+   52 |                 for (uint64_t i = integer_size + 1; i < temp.size(); i++)
+      |                      ^~~~~~~~
+src/High/High_io.cpp:52:22: note: 'uint64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_io.cpp:52:53: error: 'i' was not declared in this scope
+   52 |                 for (uint64_t i = integer_size + 1; i < temp.size(); i++)
+      |                                                     ^
+src/High/High_io.cpp:55:56: error: request for member 'push_back' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   55 |                                 data.Decimals().Data().push_back(temp.at(i) - 48);
+      |                                                        ^~~~~~~~~
+src/High/High_io.cpp:62:39: error: request for member 'at' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   62 |         while (data.Decimals().Data().at(data.Decimals().Data().size() - 1) == 0 && data.Decimals() != (High_int)0)
+      |                                       ^~
+src/High/High_io.cpp:62:65: error: request for member 'size' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   62 |         while (data.Decimals().Data().at(data.Decimals().Data().size() - 1) == 0 && data.Decimals() != (High_int)0)
+      |                                                                 ^~~~
+src/High/High_io.cpp:64:40: error: request for member 'pop_back' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   64 |                 data.Decimals().Data().pop_back();
+      |                                        ^~~~~~~~
+src/High/High_io.cpp:68:44: error: request for member 'at' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   68 |                 if (data.Decimals().Data().at(0) == 0 && data.Decimals().Data().size() > 1)
+      |                                            ^~
+src/High/High_io.cpp:68:81: error: request for member 'size' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   68 |                 if (data.Decimals().Data().at(0) == 0 && data.Decimals().Data().size() > 1)
+      |                                                                                 ^~~~
+src/High/High_io.cpp:70:48: error: request for member 'erase' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   70 |                         data.Decimals().Data().erase(data.Decimals().Data().begin());
+      |                                                ^~~~~
+src/High/High_io.cpp:70:77: error: request for member 'begin' in '(&(& data)->High_float::Decimals())->High_int::Data()', which is of non-class type 'int'
+   70 |                         data.Decimals().Data().erase(data.Decimals().Data().begin());
+      |                                                                             ^~~~~
+src/High/High_io.cpp:71:32: error: 'class High_float' has no member named 'Decimals_leading_zero'
+   71 |                         ++data.Decimals_leading_zero();
+      |                                ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_io.cpp:77:22: error: 'class High_float' has no member named 'Decimals_leading_zero'
+   77 |                 data.Decimals_leading_zero() = 0;
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+src/High/High_io.cpp: In function 'std::ostream& operator<<(std::ostream&, High_float)':
+src/High/High_io.cpp:86:14: error: 'int64_t' was not declared in this scope
+   86 |         for (int64_t i = 0; i < data.Decimals_leading_zero(); i++)
+      |              ^~~~~~~
+src/High/High_io.cpp:86:14: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_io.cpp:86:29: error: 'i' was not declared in this scope
+   86 |         for (int64_t i = 0; i < data.Decimals_leading_zero(); i++)
+      |                             ^
+src/High/High_io.cpp:86:38: error: 'class High_float' has no member named 'Decimals_leading_zero'
+   86 |         for (int64_t i = 0; i < data.Decimals_leading_zero(); i++)
+      |                                      ^~~~~~~~~~~~~~~~~~~~~
+In file included from .\include/High\High_math.h:3,
+                 from src/High/High_math.cpp:1:
+.\include/High\High_int.h:10:27: error: 'int8_t' was not declared in this scope
+   10 |         class std::vector<int8_t> data;
+      |                           ^~~~~~
+.\include/High\High_int.h:4:1: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    3 | #include <string>
+  +++ |+#include <cstdint>
+    4 | // ╤А╨╡╨░╨╗╨╕╨╖╨░╤Ж╨╕╤П ╤З╨╕╤Б╨╡╨╗ ╨┐╤А╨╛╨╕╨╖╨▓╨╛╨╗╤М╨╜╨╛╨╣ ╤В╨╛╤З╨╜╨╛╤Б╤В╨╕
+.\include/High\High_int.h:10:33: error: template argument 1 is invalid
+   10 |         class std::vector<int8_t> data;
+      |                                 ^
+.\include/High\High_int.h:10:33: error: template argument 2 is invalid
+.\include/High\High_int.h:13:24: error: 'int64_t' does not name a type
+   13 |         High_int(const int64_t data);
+      |                        ^~~~~~~
+.\include/High\High_int.h:13:24: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_int.h:18:18: error: expected type-specifier before 'int64_t'
+   18 |         operator int64_t();
+      |                  ^~~~~~~
+.\include/High\High_int.h:21:28: error: 'int64_t' has not been declared
+   21 |         High_int operator=(int64_t data);
+      |                            ^~~~~~~
+.\include/High\High_int.h:21:28: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_int.h:49:23: error: 'int8_t' was not declared in this scope
+   49 |     class std::vector<int8_t>& Data();
+      |                       ^~~~~~
+.\include/High\High_int.h:49:23: note: 'int8_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_int.h:49:29: error: template argument 1 is invalid
+   49 |     class std::vector<int8_t>& Data();
+      |                             ^
+.\include/High\High_int.h:49:29: error: template argument 2 is invalid
+In file included from .\include/High\High_math.h:4:
+.\include/High\High_float.h:16:9: error: 'int64_t' does not name a type
+   16 |         int64_t decimals_leading_zero;
+      |         ^~~~~~~
+.\include/High\High_float.h:1:1: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+  +++ |+#include <cstdint>
+    1 | #pragma once
+.\include/High\High_float.h:18:16: error: 'int64_t' does not name a type
+   18 |         static int64_t precision;
+      |                ^~~~~~~
+.\include/High\High_float.h:18:16: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_float.h:55:27: error: 'int64_t' has not been declared
+   55 |         void setprecision(int64_t precision);
+      |                           ^~~~~~~
+.\include/High\High_float.h:55:27: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+.\include/High\High_float.h:61:9: error: 'int64_t' does not name a type
+   61 |         int64_t& Decimals_leading_zero();
+      |         ^~~~~~~
+.\include/High\High_float.h:61:9: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+src/High/High_math.cpp: In function 'High_int pow(High_int, High_int)':
+src/High/High_math.cpp:13:22: error: request for member 'at' in 'n.High_int::Data()', which is of non-class type 'int'
+   13 |         if (n.Data().at(n.Data().size() - 1) % 2 == 0)
+      |                      ^~
+src/High/High_math.cpp:13:34: error: request for member 'size' in 'n.High_int::Data()', which is of non-class type 'int'
+   13 |         if (n.Data().at(n.Data().size() - 1) % 2 == 0)
+      |                                  ^~~~
+src/High/High_math.cpp: In function 'High_float pow(High_float, High_int)':
+src/High/High_math.cpp:33:15: error: could not convert 'n.High_int::operator%(High_int(2))' from 'High_int' to 'bool'
+   33 |         if (n % (High_int)2) result *= base;
+      |             ~~^~~~~~~~~~~~~
+      |               |
+      |               High_int
+src/High/High_math.cpp: In function 'High_float Rooting(High_float, High_int)':
+src/High/High_math.cpp:81:10: error: 'int64_t' was not declared in this scope
+   81 |     for (int64_t i = 0; i < ITERATIONS; i++)
+      |          ^~~~~~~
+src/High/High_math.cpp:2:1: note: 'int64_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+    1 | #include "High\High_math.h"
+  +++ |+#include <cstdint>
+    2 | 
+src/High/High_math.cpp:81:25: error: 'i' was not declared in this scope
+   81 |     for (int64_t i = 0; i < ITERATIONS; i++)
+      |                         ^

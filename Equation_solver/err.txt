@@ -1,0 +1,149 @@
+main.cpp:1:10: fatal error: arithmetic_expression.h: No such file or directory
+    1 | #include "arithmetic_expression.h" // <- ╨┐╤А╨░╨▓╨╕╨╗╤М╨╜╨╛ ╤Б╨║╨╛╨╝╨┐╨╕╨╗╨╕╤А╨╛╨▓╨░╤В╤М
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/polynomial_exponential.h:2,
+                 from .\include/kernel/arithmetic_expression.h:3,
+                 from src/kernel/arithmetic_expression.cpp:2:
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator+(Fraction<T>)':
+.\include/kernel/fraction.h:23:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   23 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator-(Fraction<T>)':
+.\include/kernel/fraction.h:30:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   30 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator*(Fraction<T>)':
+.\include/kernel/fraction.h:37:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   37 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator/(Fraction<T>)':
+.\include/kernel/fraction.h:44:33: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   44 |                 Fraction<T> temp();
+      |                                 ^~
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/equation.h:4,
+                 from src/kernel/equation.cpp:1:
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator+(Fraction<T>)':
+.\include/kernel/fraction.h:23:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   23 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator-(Fraction<T>)':
+.\include/kernel/fraction.h:30:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   30 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator*(Fraction<T>)':
+.\include/kernel/fraction.h:37:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   37 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator/(Fraction<T>)':
+.\include/kernel/fraction.h:44:33: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   44 |                 Fraction<T> temp();
+      |                                 ^~
+.\include/kernel/equation.h: In function 'bool IsPrime(sint64)':
+.\include/kernel/equation.h:56:33: error: 'sqrt' was not declared in this scope; did you mean 'sqrt_n'?
+   56 |         sint64 sqrt_n = (sint64)sqrt(n);
+      |                                 ^~~~
+      |                                 sqrt_n
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/polynomial_exponential.h:2,
+                 from .\include/kernel/arithmetic_expression.h:3,
+                 from src/kernel/mathematical_expression.cpp:1:
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator+(Fraction<T>)':
+.\include/kernel/fraction.h:23:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   23 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator-(Fraction<T>)':
+.\include/kernel/fraction.h:30:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   30 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator*(Fraction<T>)':
+.\include/kernel/fraction.h:37:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   37 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator/(Fraction<T>)':
+.\include/kernel/fraction.h:44:33: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   44 |                 Fraction<T> temp();
+      |                                 ^~
+In file included from .\include/kernel/monomial.h:6,
+                 from src/kernel/monomial.cpp:1:
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator+(Fraction<T>)':
+.\include/kernel/fraction.h:23:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   23 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator-(Fraction<T>)':
+.\include/kernel/fraction.h:30:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   30 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator*(Fraction<T>)':
+.\include/kernel/fraction.h:37:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   37 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator/(Fraction<T>)':
+.\include/kernel/fraction.h:44:33: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   44 |                 Fraction<T> temp();
+      |                                 ^~
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from src/kernel/polynomial.cpp:1:
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator+(Fraction<T>)':
+.\include/kernel/fraction.h:23:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   23 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator-(Fraction<T>)':
+.\include/kernel/fraction.h:30:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   30 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator*(Fraction<T>)':
+.\include/kernel/fraction.h:37:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   37 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator/(Fraction<T>)':
+.\include/kernel/fraction.h:44:33: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   44 |                 Fraction<T> temp();
+      |                                 ^~
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/polynomial_exponential.h:2,
+                 from src/kernel/polynomial_exponential.cpp:1:
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator+(Fraction<T>)':
+.\include/kernel/fraction.h:23:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   23 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator-(Fraction<T>)':
+.\include/kernel/fraction.h:30:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   30 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator*(Fraction<T>)':
+.\include/kernel/fraction.h:37:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   37 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator/(Fraction<T>)':
+.\include/kernel/fraction.h:44:33: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   44 |                 Fraction<T> temp();
+      |                                 ^~
+In file included from .\include/kernel/monomial.h:6,
+                 from .\include/kernel/polynomial.h:5,
+                 from .\include/kernel/polynomial_exponential.h:2,
+                 from .\include/kernel/polynomial_exponential_sum.h:3,
+                 from src/kernel/polynomial_exponential_sum.cpp:1:
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator+(Fraction<T>)':
+.\include/kernel/fraction.h:23:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   23 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator-(Fraction<T>)':
+.\include/kernel/fraction.h:30:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   30 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator*(Fraction<T>)':
+.\include/kernel/fraction.h:37:35: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   37 |                 Fraction<T> result();
+      |                                   ^~
+.\include/kernel/fraction.h: In member function 'Fraction<T> Fraction<T>::operator/(Fraction<T>)':
+.\include/kernel/fraction.h:44:33: warning: empty parentheses were disambiguated as a function declaration [-Wvexing-parse]
+   44 |                 Fraction<T> temp();
+      |                                 ^~
